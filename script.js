@@ -1,6 +1,6 @@
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
-const api_url = "https://zenquotes.io/api/random";
+const api_url = "https://zenquotes.io/api/random"; //MY Api URL Don't work
 
 async function getquote(url) {
    const response = await fetch(url);
